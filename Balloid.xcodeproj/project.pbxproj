@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15BA3F1D2AEC4268000C2978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA3F1C2AEC4268000C2978 /* AppDelegate.swift */; };
+		15BA3F1F2AEC4268000C2978 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 15BA3F1E2AEC4268000C2978 /* GameScene.sks */; };
+		15BA3F212AEC4268000C2978 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 15BA3F202AEC4268000C2978 /* Actions.sks */; };
+		15BA3F232AEC4268000C2978 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA3F222AEC4268000C2978 /* GameScene.swift */; };
+		15BA3F252AEC4268000C2978 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA3F242AEC4268000C2978 /* GameViewController.swift */; };
+		15BA3F282AEC4268000C2978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BA3F262AEC4268000C2978 /* Main.storyboard */; };
+		15BA3F2A2AEC4269000C2978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15BA3F292AEC4269000C2978 /* Assets.xcassets */; };
+		15BA3F2D2AEC4269000C2978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BA3F2B2AEC4269000C2978 /* LaunchScreen.storyboard */; };
+		15BA3F372AEC4269000C2978 /* BalloidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA3F362AEC4269000C2978 /* BalloidTests.swift */; };
+		15BA3F412AEC4269000C2978 /* BalloidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA3F402AEC4269000C2978 /* BalloidUITests.swift */; };
+		15BA3F432AEC4269000C2978 /* BalloidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA3F422AEC4269000C2978 /* BalloidUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15BA3F332AEC4269000C2978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15BA3F112AEC4268000C2978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BA3F182AEC4268000C2978;
+			remoteInfo = Balloid;
+		};
+		15BA3F3D2AEC4269000C2978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15BA3F112AEC4268000C2978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BA3F182AEC4268000C2978;
+			remoteInfo = Balloid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15BA3F192AEC4268000C2978 /* Balloid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balloid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BA3F1C2AEC4268000C2978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15BA3F1E2AEC4268000C2978 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		15BA3F202AEC4268000C2978 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		15BA3F222AEC4268000C2978 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		15BA3F242AEC4268000C2978 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		15BA3F272AEC4268000C2978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15BA3F292AEC4269000C2978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15BA3F2C2AEC4269000C2978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15BA3F322AEC4269000C2978 /* BalloidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalloidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BA3F362AEC4269000C2978 /* BalloidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloidTests.swift; sourceTree = "<group>"; };
+		15BA3F3C2AEC4269000C2978 /* BalloidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalloidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BA3F402AEC4269000C2978 /* BalloidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloidUITests.swift; sourceTree = "<group>"; };
+		15BA3F422AEC4269000C2978 /* BalloidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15BA3F162AEC4268000C2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA3F2F2AEC4269000C2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA3F392AEC4269000C2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15BA3F102AEC4268000C2978 = {
+			isa = PBXGroup;
+			children = (
+				15BA3F1B2AEC4268000C2978 /* Balloid */,
+				15BA3F352AEC4269000C2978 /* BalloidTests */,
+				15BA3F3F2AEC4269000C2978 /* BalloidUITests */,
+				15BA3F1A2AEC4268000C2978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15BA3F1A2AEC4268000C2978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15BA3F192AEC4268000C2978 /* Balloid.app */,
+				15BA3F322AEC4269000C2978 /* BalloidTests.xctest */,
+				15BA3F3C2AEC4269000C2978 /* BalloidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15BA3F1B2AEC4268000C2978 /* Balloid */ = {
+			isa = PBXGroup;
+			children = (
+				15BA3F1C2AEC4268000C2978 /* AppDelegate.swift */,
+				15BA3F1E2AEC4268000C2978 /* GameScene.sks */,
+				15BA3F202AEC4268000C2978 /* Actions.sks */,
+				15BA3F222AEC4268000C2978 /* GameScene.swift */,
+				15BA3F242AEC4268000C2978 /* GameViewController.swift */,
+				15BA3F262AEC4268000C2978 /* Main.storyboard */,
+				15BA3F292AEC4269000C2978 /* Assets.xcassets */,
+				15BA3F2B2AEC4269000C2978 /* LaunchScreen.storyboard */,
+			);
+			path = Balloid;
+			sourceTree = "<group>";
+		};
+		15BA3F352AEC4269000C2978 /* BalloidTests */ = {
+			isa = PBXGroup;
+			children = (
+				15BA3F362AEC4269000C2978 /* BalloidTests.swift */,
+			);
+			path = BalloidTests;
+			sourceTree = "<group>";
+		};
+		15BA3F3F2AEC4269000C2978 /* BalloidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15BA3F402AEC4269000C2978 /* BalloidUITests.swift */,
+				15BA3F422AEC4269000C2978 /* BalloidUITestsLaunchTests.swift */,
+			);
+			path = BalloidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15BA3F182AEC4268000C2978 /* Balloid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BA3F462AEC4269000C2978 /* Build configuration list for PBXNativeTarget "Balloid" */;
+			buildPhases = (
+				15BA3F152AEC4268000C2978 /* Sources */,
+				15BA3F162AEC4268000C2978 /* Frameworks */,
+				15BA3F172AEC4268000C2978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Balloid;
+			productName = Balloid;
+			productReference = 15BA3F192AEC4268000C2978 /* Balloid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15BA3F312AEC4269000C2978 /* BalloidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BA3F492AEC4269000C2978 /* Build configuration list for PBXNativeTarget "BalloidTests" */;
+			buildPhases = (
+				15BA3F2E2AEC4269000C2978 /* Sources */,
+				15BA3F2F2AEC4269000C2978 /* Frameworks */,
+				15BA3F302AEC4269000C2978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15BA3F342AEC4269000C2978 /* PBXTargetDependency */,
+			);
+			name = BalloidTests;
+			productName = BalloidTests;
+			productReference = 15BA3F322AEC4269000C2978 /* BalloidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15BA3F3B2AEC4269000C2978 /* BalloidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BA3F4C2AEC4269000C2978 /* Build configuration list for PBXNativeTarget "BalloidUITests" */;
+			buildPhases = (
+				15BA3F382AEC4269000C2978 /* Sources */,
+				15BA3F392AEC4269000C2978 /* Frameworks */,
+				15BA3F3A2AEC4269000C2978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15BA3F3E2AEC4269000C2978 /* PBXTargetDependency */,
+			);
+			name = BalloidUITests;
+			productName = BalloidUITests;
+			productReference = 15BA3F3C2AEC4269000C2978 /* BalloidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15BA3F112AEC4268000C2978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					15BA3F182AEC4268000C2978 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					15BA3F312AEC4269000C2978 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 15BA3F182AEC4268000C2978;
+					};
+					15BA3F3B2AEC4269000C2978 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 15BA3F182AEC4268000C2978;
+					};
+				};
+			};
+			buildConfigurationList = 15BA3F142AEC4268000C2978 /* Build configuration list for PBXProject "Balloid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15BA3F102AEC4268000C2978;
+			productRefGroup = 15BA3F1A2AEC4268000C2978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15BA3F182AEC4268000C2978 /* Balloid */,
+				15BA3F312AEC4269000C2978 /* BalloidTests */,
+				15BA3F3B2AEC4269000C2978 /* BalloidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15BA3F172AEC4268000C2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA3F282AEC4268000C2978 /* Main.storyboard in Resources */,
+				15BA3F1F2AEC4268000C2978 /* GameScene.sks in Resources */,
+				15BA3F2A2AEC4269000C2978 /* Assets.xcassets in Resources */,
+				15BA3F2D2AEC4269000C2978 /* LaunchScreen.storyboard in Resources */,
+				15BA3F212AEC4268000C2978 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA3F302AEC4269000C2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA3F3A2AEC4269000C2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15BA3F152AEC4268000C2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA3F232AEC4268000C2978 /* GameScene.swift in Sources */,
+				15BA3F252AEC4268000C2978 /* GameViewController.swift in Sources */,
+				15BA3F1D2AEC4268000C2978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA3F2E2AEC4269000C2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA3F372AEC4269000C2978 /* BalloidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BA3F382AEC4269000C2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BA3F432AEC4269000C2978 /* BalloidUITestsLaunchTests.swift in Sources */,
+				15BA3F412AEC4269000C2978 /* BalloidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15BA3F342AEC4269000C2978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BA3F182AEC4268000C2978 /* Balloid */;
+			targetProxy = 15BA3F332AEC4269000C2978 /* PBXContainerItemProxy */;
+		};
+		15BA3F3E2AEC4269000C2978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BA3F182AEC4268000C2978 /* Balloid */;
+			targetProxy = 15BA3F3D2AEC4269000C2978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15BA3F262AEC4268000C2978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15BA3F272AEC4268000C2978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15BA3F2B2AEC4269000C2978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15BA3F2C2AEC4269000C2978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15BA3F442AEC4269000C2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15BA3F452AEC4269000C2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15BA3F472AEC4269000C2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balloid.com.Balloid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15BA3F482AEC4269000C2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balloid.com.Balloid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15BA3F4A2AEC4269000C2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balloid.com.BalloidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balloid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Balloid";
+			};
+			name = Debug;
+		};
+		15BA3F4B2AEC4269000C2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balloid.com.BalloidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balloid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Balloid";
+			};
+			name = Release;
+		};
+		15BA3F4D2AEC4269000C2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balloid.com.BalloidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Balloid;
+			};
+			name = Debug;
+		};
+		15BA3F4E2AEC4269000C2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balloid.com.BalloidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Balloid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15BA3F142AEC4268000C2978 /* Build configuration list for PBXProject "Balloid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA3F442AEC4269000C2978 /* Debug */,
+				15BA3F452AEC4269000C2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BA3F462AEC4269000C2978 /* Build configuration list for PBXNativeTarget "Balloid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA3F472AEC4269000C2978 /* Debug */,
+				15BA3F482AEC4269000C2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BA3F492AEC4269000C2978 /* Build configuration list for PBXNativeTarget "BalloidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA3F4A2AEC4269000C2978 /* Debug */,
+				15BA3F4B2AEC4269000C2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BA3F4C2AEC4269000C2978 /* Build configuration list for PBXNativeTarget "BalloidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA3F4D2AEC4269000C2978 /* Debug */,
+				15BA3F4E2AEC4269000C2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15BA3F112AEC4268000C2978 /* Project object */;
+}
