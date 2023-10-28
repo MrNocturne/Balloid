@@ -14,23 +14,17 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-        }
+        //TODO: Issue bg is not fitting screen
+        
+        let scene = GameScene(size: CGSize(width: 2048, height: 1500))
+        scene.scaleMode = .aspectFit
+        let skiView = view as! SKView
+        skiView.showsFPS = true
+        skiView.showsNodeCount = true
+        skiView.showsPhysics = true
+        skiView.ignoresSiblingOrder = true
+        skiView.presentScene(scene)
     }
-
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
             return .allButUpsideDown
