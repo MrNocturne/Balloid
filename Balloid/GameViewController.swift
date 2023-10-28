@@ -16,8 +16,8 @@ class GameViewController: UIViewController {
         
         //TODO: Issue bg is not fitting screen
         
-        let scene = GameScene(size: CGSize(width: 2048, height: 1500))
-        scene.scaleMode = .aspectFit
+        let scene = GameScene(size: CGSize(width: 2048, height: UIScreen.main.bounds.width))
+        scene.scaleMode = .aspectFill
         let skiView = view as! SKView
         skiView.showsFPS = true
         skiView.showsNodeCount = true
@@ -25,13 +25,13 @@ class GameViewController: UIViewController {
         skiView.ignoresSiblingOrder = true
         skiView.presentScene(scene)
     }
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
-    }
+//    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+//        if UIDevice.current.userInterfaceIdiom == .phone {
+//            return .allButUpsideDown
+//        } else {
+//            return .all
+//        }
+//    }
 
     override var prefersStatusBarHidden: Bool {
         return true
